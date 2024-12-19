@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4857733021927454767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door/Door
+  m_EditorClassIdentifier: 
+  Name: Door
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4246985723
+    data2: 1318890508
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Door open
+  - Door closed
+  Exists: 1
+--- !u!114 &-4201298417612210536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tavern/Fire Burning Loop 1
+  m_EditorClassIdentifier: 
+  Path: event:/Tavern/Fire Burning Loop 1
+  Guid:
+    Data1: 1440007399
+    Data2: 1125097720
+    Data3: 1737987262
+    Data4: 1688837144
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 80000
+--- !u!114 &-3635493947626671042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tavern/Easy Going Medieval Tavern - Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Tavern/Easy Going Medieval Tavern - Loop
+  Guid:
+    Data1: 1111166213
+    Data2: 1189494038
+    Data3: 1665511595
+    Data4: 1470570658
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 207609
+--- !u!114 &-2480663227826891050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod studio/project/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638683865732995076
+  FileSizes:
+  - Name: Desktop
+    Value: 12912800
+  Exists: 1
+--- !u!114 &-1351998485466109921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tavern/Adventures of a Bard
+  m_EditorClassIdentifier: 
+  Path: event:/Tavern/Adventures of a Bard
+  Guid:
+    Data1: 476042801
+    Data2: 1086780044
+    Data3: -1935769159
+    Data4: 2066296122
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 77538
+--- !u!114 &-88639177928627461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door/Door
+  m_EditorClassIdentifier: 
+  Path: event:/Door/Door
+  Guid:
+    Data1: -88503416
+    Data2: 1281102855
+    Data3: -2143249787
+    Data4: -121137475
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4857733021927454767}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 750
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 608751188354882055}
+  - {fileID: -2480663227826891050}
+  EditorEvents:
+  - {fileID: 4218322072111435555}
+  - {fileID: -3635493947626671042}
+  - {fileID: -1351998485466109921}
+  - {fileID: 1810704784497783851}
+  - {fileID: 7815709453538798596}
+  - {fileID: -88639177928627461}
+  - {fileID: 4875149566407913838}
+  - {fileID: -4201298417612210536}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2480663227826891050}
+  StringsBanks:
+  - {fileID: 608751188354882055}
+  cacheTime: 638683865733027427
+  cacheVersion: 131617
+--- !u!114 &608751188354882055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod studio/project/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638683865733027427
+  FileSizes:
+  - Name: Desktop
+    Value: 1442
+  Exists: 1
+--- !u!114 &1810704784497783851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Forest Woodland
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Forest Woodland
+  Guid:
+    Data1: -525548988
+    Data2: 1186538320
+    Data3: -892958336
+    Data4: 1606991416
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 51000
+--- !u!114 &3673838995213647040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Footsteps_surface
+  m_EditorClassIdentifier: 
+  Name: Footsteps_surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1674344935
+    data2: 1429909117
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - s
+  - w
+  Exists: 1
+--- !u!114 &4218322072111435555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps/Footsteps
+  Guid:
+    Data1: 1657745122
+    Data2: 1158777703
+    Data3: 304315273
+    Data4: 553046222
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3673838995213647040}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 487
+--- !u!114 &4875149566407913838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Eerie Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Eerie Forest
+  Guid:
+    Data1: -767851884
+    Data2: 1178193505
+    Data3: 422912446
+    Data4: -1753802616
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 320152
+--- !u!114 &7815709453538798596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tavern/Fire Burning Loop 2
+  m_EditorClassIdentifier: 
+  Path: event:/Tavern/Fire Burning Loop 2
+  Guid:
+    Data1: -1951765126
+    Data2: 1249055636
+    Data3: 18034068
+    Data4: 565960374
+  Banks:
+  - {fileID: -2480663227826891050}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56000

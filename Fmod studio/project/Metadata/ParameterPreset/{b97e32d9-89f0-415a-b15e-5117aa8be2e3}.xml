@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b97e32d9-89f0-415a-b15e-5117aa8be2e3}">
+		<property name="name">
+			<value>Inverted</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8d64be49-882e-41ae-953b-80d70f8bd751}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{59146dd8-527c-49c2-814b-443025c99758}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{59146dd8-527c-49c2-814b-443025c99758}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+			<value>Value C</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
